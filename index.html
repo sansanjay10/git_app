@@ -3,21 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github User Search App</title>
+    <title>GitHub Search User App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Github Search user App</h1>
-        <div>
-            <input type="text" id="text">
+        <h1>GitHub Search User App</h1>
+        <div class="input-container">
+            <input type="text" id="text" placeholder="Enter GitHub username">
+            <button onclick="git()">Search User</button>
         </div>
-        <div>
-            <button onclick="git()">Search user</button>
-        </div>
-        <div>
-            <div id="result"></div>
-        </div>
+        <div id="result"></div>
     </div>
     <script src="git.js"></script>
 </body>
